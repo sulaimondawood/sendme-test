@@ -33,6 +33,7 @@ export const Deliver = () => {
           text="Diverse cross border payment options."
         />
         <Card
+          bg="bg-cardBg"
           icon={<Service />}
           img={Delivery}
           text="Swift service delivery to your loved ones."
