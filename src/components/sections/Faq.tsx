@@ -51,7 +51,7 @@ export const Faq = () => {
             alt="icon"
           />
         </div>
-        <div className="w-full md:w-[748px] flex flex-col gap-[26px]">
+        <div className="w-full md:w-[748px] flex flex-col gap-4">
           {data.map((data, index) => {
             return (
               <Accordion
