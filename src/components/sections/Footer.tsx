@@ -7,6 +7,7 @@ import { Insta } from "../svgs/Insta";
 import { Facebook } from "../svgs/Facebook";
 import { X } from "../svgs/X";
 import { LinkedIn } from "../svgs/LinkedIn";
+import FooterImg from "../../assets/images/footer.png";
 
 export const Footer = () => {
   return (
@@ -105,9 +106,7 @@ export const Footer = () => {
           </div>
         </div>
       </Container>
-      <h1 className="pt-10 md:pt-14 text-[46px] md:text-[164px] leading-[67px] md:leading-[150px] overflow-hidden text-[#313234] font-aeonikBold font-bold text-center">
-        Care with Sendsile
-      </h1>
+      <img className="w-full" src={FooterImg} alt="" />
       <img className="absolute bottom-0 right-0" src={Blur} alt="blur" />
     </section>
   );

@@ -12,7 +12,7 @@ export const Deliver = () => {
       <h1 className="text-[42px] leading-[55px] font-aeonikMedium text-center text-prm-black">
         Request . Pay . Deliver
       </h1>
-      <p className="pt-4 text-[18px] text-[#36454F] leading-[25px] text-center mx-auto w-[661px]">
+      <p className="pt-4 text-[18px] font-aeonikRegular text-[#36454F] leading-[25px] text-center mx-auto w-[643px]">
         From doorstep deliveries to heartfelt services, Sendsile provides a hub
         to support loved ones in Nigeria with for food, health and personal care
         services

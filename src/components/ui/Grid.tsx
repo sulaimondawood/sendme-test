@@ -10,7 +10,7 @@ const Grid = ({
   nig?: any;
 }) => {
   return (
-    <div className="1440px:h-[509px] flex items-start gap-[18px]">
+    <div className="1440px:h-[509px] w-full justify-center flex items-start gap-[18px]">
       <div className="relative h-full">
         <img className="" src={img1} alt="woman image" />
       </div>
