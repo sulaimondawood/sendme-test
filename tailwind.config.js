@@ -26,8 +26,8 @@ export default {
           "radial-gradient(100% 100% at 0% 0%, #FFF8EF 0%, rgba(255, 248, 239, 0) 100%)",
         servicesGradient:
           "linear-gradient(180deg, #F8F3F0 0%, #FFFAF3 48.97%, #FFFEFC 100%)",
-
-        cardBg: "url('./src/assets/images/man-swift.png')",
+        cardBg: "url('/man-swift.png')",
+        // cardBg: "url('./src/assets/images/man-swift.png')",
       },
     },
   },
