@@ -17,7 +17,9 @@ export const Card = ({
 }: ICard) => {
   return (
     <div
-      className={`w-[314px] h-[398px] flex flex-col justify-between rounded-[18px] pt-8 px-5 pb-[17.5px] ${bg}`}
+      className={`w-[314px] h-[398px] flex flex-col justify-between rounded-[18px] pt-8 px-5 pb-[17.5px] ${
+        bg ? bg : "bg-cardBg"
+      }`}
     >
       <div>
         {icon}
