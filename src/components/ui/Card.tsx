@@ -17,14 +17,14 @@ export const Card = ({
 }: ICard) => {
   return (
     <div
-      className={`w-[314px] h-[398px] flex flex-col justify-between rounded-[18px] pt-8 px-5 pb-[17.5px] ${
+      className={`min-w-[230px] md:w-[314px] h-[293px] md:h-[398px] flex flex-col justify-between rounded-[13px] md:rounded-[18px] pt-6 md:pt-8 px-[14px] md:px-5 pb-[17.5px] ${
         bg ? bg : "bg-cardBg"
       }`}
     >
       <div>
-        {icon}
+        <div className="w-5">{icon}</div>
         <p
-          className={`${textColor} pt-4 text-[22px] leading-[30.8px] font-aeonikMedium w-[277px]`}
+          className={`${textColor} pt-4 text-base md:text-[22px] leading-[22.4px] md:leading-[30.8px] font-aeonikMedium w-full md:w-[277px]`}
         >
           {text}
         </p>

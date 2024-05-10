@@ -8,6 +8,9 @@ import { Facebook } from "../svgs/Facebook";
 import { X } from "../svgs/X";
 import { LinkedIn } from "../svgs/LinkedIn";
 import FooterImg from "../../assets/images/footer.png";
+import FooterBlur2 from "../../assets/images/footerblur.png";
+import FooterBlur22 from "../../assets/images/footerblur22.png";
+import { FooterMobile } from "../svgs/FooterMobile";
 
 export const Footer = () => {
   return (
@@ -89,13 +92,21 @@ export const Footer = () => {
           </div>
         </footer>
         <div className="pt-[55px] md:pt-[136px] md:pl-[102px] md:pr-[111px] flex flex-wrap justify-between">
-          <div className="flex gap-9 items-center">
+          <div className="hidden md:flex gap-9 items-center">
             <FooterLogo />
             <p className="text-sm text-[#E5E9EE] font-aeonikRegular w-full md:w-[774px]">
               Lorem ipsum dolor sit amet consectetur. Sociis tincidunt blandit
               sed feugiat ornare dictum cras. Adipiscing sit pellentesque
               vehicula a viverra nullam risus. Congue elit tincidunt id arcu nec
               mi massa. © Sendsile 2024. All Rights Reserved.
+            </p>
+          </div>
+          <div className="md:hidden flex gap-9 items-center">
+            <FooterMobile />
+            <p className="text-sm text-[#E5E9EE] font-aeonikRegular w-full ">
+              Lorem ipsum dolor sit amet consectetur. Sociis tincidunt blandit
+              sed feugiat ornare dictum cras. t © Sendsile 2024. All Rights
+              Reserved.
             </p>
           </div>
           <div className="mt-6 md:mt-0 border border-[#282C31] rounded-[10px] py-[14px] md:py-6 px-[27px] bg-[#131618] flex gap-8 items-center">
@@ -106,8 +117,22 @@ export const Footer = () => {
           </div>
         </div>
       </Container>
-      <img className="w-full" src={FooterImg} alt="" />
-      <img className="absolute bottom-0 right-0" src={Blur} alt="blur" />
+      <img className="w-full pt-[57px] pb-3 md:pt-0" src={FooterImg} alt="" />
+      <img
+        className="absolute bottom-0 right-0 hidden lg:flex"
+        src={Blur}
+        alt="blur"
+      />
+      <img
+        className="absolute bottom-0 right-0 lg:hidden"
+        src={FooterBlur2}
+        alt="blur"
+      />
+      <img
+        className="absolute bottom-0 right-0 lg:hidden"
+        src={FooterBlur22}
+        alt="blur"
+      />
     </section>
   );
 };

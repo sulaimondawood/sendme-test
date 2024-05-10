@@ -1,8 +1,8 @@
 export const Flower = () => {
   return (
     <svg
-      width="98"
-      height="94"
+      // width="98"
+      // height="94"
       viewBox="0 0 98 94"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

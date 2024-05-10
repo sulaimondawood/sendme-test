@@ -37,8 +37,8 @@ export const Faq = () => {
   ];
   return (
     <Container>
-      <div className="flex relative flex-col gap-y-10 md:gap-y-0 md:flex-row justify-between px-4 md:px-[100px] mt-[166px]">
-        <div className="w-[345px]">
+      <div className="flex relative flex-col gap-y-10 md:gap-y-0 md:flex-row justify-between px-4 md:px-[100px] mt-[104px] md:mt-[166px]">
+        <div className="pr-[70px] md:pr-0 md:w-[345px]">
           <h1 className="text-[24px] md:text-[44px] leading-[29px] md:leading-[52px] text-black font-aeonikMedium">
             Some of the things you may want to know
           </h1>

@@ -9,7 +9,9 @@ import Services from "./components/sections/Services";
 const App = () => {
   return (
     <div className="">
-      <NavBar />
+      <>
+        <NavBar />
+      </>
       <Hero
         title="Bridging hearts across"
         titleSpan="miles"

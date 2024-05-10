@@ -2,14 +2,18 @@ import { ArrowDown } from "../svgs/ArrowDown";
 import { NavLogo } from "../svgs/NavLogo";
 import { Container } from "./Container";
 import Blur from "../../assets/images/blur.png";
+import Blur3 from "../../assets/images/blur3.png";
+import { MobileNav } from "./MobileNav";
 
 export const NavBar = () => {
   return (
     <>
-      <header className="bg-navRadialGradient backdrop-blur-lg fixed top-0 w-full z-50">
+      <header className="hidden lg:block bg-navRadialGradient backdrop-blur-lg fixed top-0 w-full z-50">
         <Container>
           <nav className="flex items-center z-[99] justify-between px-[100px] py-[18.5px]">
-            <NavLogo />
+            <div className="w-[159px] h-[29px]">
+              <NavLogo />
+            </div>
             <div className="flex gap-8 items-center font-aeonikMedium font-medium text-[#36454F]">
               <p className="text-base leading-[22px] z-10">Home</p>
               <div className="flex items-center gap-[13px] z-10">
@@ -26,9 +30,15 @@ export const NavBar = () => {
           </nav>
         </Container>
       </header>
+      <MobileNav />
       <img
-        className="absolute -z-10 top-0 w-full"
+        className="hidden lg:block absolute -z-10 top-0 w-full"
         src={Blur}
+        alt="blur gradient"
+      />
+      <img
+        className="lg:hidden absolute -z-10 top-0 w-full"
+        src={Blur3}
         alt="blur gradient"
       />
     </>

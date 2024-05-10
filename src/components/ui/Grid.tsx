@@ -10,14 +10,14 @@ const Grid = ({
   nig?: any;
 }) => {
   return (
-    <div className="1440px:h-[509px] w-full justify-center flex items-start gap-[18px]">
-      <div className="relative h-full">
-        <img className="" src={img1} alt="woman image" />
+    <div className="ml-[10px] md:ml-[18px] flex items-start gap-[10px] md:gap-[18px]">
+      <div className="relative h-[297px] md:h-[509px]">
+        <img className="h-full" src={img1} alt="woman image" />
       </div>
 
-      <div className="flex flex-col gap-[18px]">
-        <div className="relative h-full">
-          <img className="" src={img2} alt="woman image" />
+      <div className="flex flex-col gap-[10px] md:gap-[18px]">
+        <div className="relative h-[143px] lg:h-[245px]">
+          <img className="h-full" src={img2} alt="woman image" />
           {nig && (
             <img
               className="absolute top-[7px] right-[7px]"
@@ -26,7 +26,7 @@ const Grid = ({
             />
           )}
         </div>
-        <img className="" src={img3} alt="woman image" />
+        <img className="h-[143px] md:h-[245px]" src={img3} alt="woman image" />
       </div>
     </div>
   );
