@@ -1,14 +1,3 @@
-// const GridSection = () => {
-//   return (
-//     <img
-//       className="w-full object-center 2xl:object-cover h-[509px] 2xl:h-full mt-24"
-//       src={Grid}
-//       alt="grid image"
-//     />
-//   );
-// };
-
-// export default GridSection;
 import Grid from "../ui/Grid";
 import Img1 from "../../assets/images/ok.png";
 import Img2 from "../../assets/images/img2.png";
