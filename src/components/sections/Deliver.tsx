@@ -40,7 +40,9 @@ export const Deliver = () => {
         services
       </p>
 
-      <Carousel slides={slide} />
+      <div className="pl-4">
+        <Carousel slides={slide} />
+      </div>
       <div className="hidden md:flex items-start gap-8 justify-center pt-14">
         <Card
           bg="bg-[#F7F7F7]"

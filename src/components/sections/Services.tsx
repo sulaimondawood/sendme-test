@@ -6,6 +6,8 @@ import { Tab } from "../ui/Tab";
 import { tab } from "../ui/Tab";
 
 const Services = () => {
+  console.log(tab);
+
   return (
     <section className="bg-servicesGradient px-4 md:px-0">
       <Container>
@@ -33,7 +35,7 @@ const Services = () => {
           <div className="h-[1px] w-full md:w-[1066px] bg-[#E1DFD0]"></div>
         </div>
         <>
-          <div className="pt-10 flex flex-col gap-6 md:hidden">
+          <div className="w-full pt-10 flex flex-col gap-6 md:hidden">
             {tab.map((tab, index) => {
               return <ServicesCard key={index} {...tab} />;
             })}

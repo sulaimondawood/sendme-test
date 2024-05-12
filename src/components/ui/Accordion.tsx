@@ -21,7 +21,7 @@ export const Accordion = ({
     <div
       ref={ref}
       className={`bg-[#F7F7F7] rounded-[10px] p-6 ${
-        isOpen ? "h-auto" : "h-[73px] overflow-hidden"
+        isOpen ? "h-auto" : "h-fit overflow-hidden"
       } transition-all duration-200 ease-in-out`}
     >
       <div className="flex justify-between items-center">
@@ -37,8 +37,8 @@ export const Accordion = ({
       </div>
       <p
         className={`${
-          isOpen ? "h-full" : "h-0 overflow-hidden"
-        } pt-4 text-sm md:text-base leading-[22px] font-aeonikRegular text-prm-black `}
+          isOpen ? "h-full pt-4" : "h-0 overflow-hidden"
+        } text-sm md:text-base leading-[22px] font-aeonikRegular text-prm-black `}
       >
         {content}
       </p>
