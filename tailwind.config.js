@@ -11,6 +11,7 @@ export default {
         aeonikMedium: ["AeonikMedium", "sans-serif"],
         aeonikLight: ["AeonikProLight", "sans-serif"],
         aeonikBold: ["AeonikProBold", "sans-serif"],
+        besley: ["Besley", "sans-serif"],
       },
       colors: {
         "prm-purple": "#5E565A",

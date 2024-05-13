@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { ArrowUp } from "../svgs/ArrowUp";
 import { ArrowDown } from "../svgs/ArrowDown";
 
@@ -10,16 +10,8 @@ export const Accordion = ({
   content: string;
 }) => {
   const [isOpen, setOpen] = useState(false);
-  const [height, setHeight] = useState(0);
-
-  const ref = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    setHeight(ref.current!.getBoundingClientRect().height);
-    console.log(height);
-  }, [isOpen]);
   return (
     <div
-      ref={ref}
       className={`bg-[#F7F7F7] rounded-[10px] p-6 ${
         isOpen ? "h-auto" : "h-fit overflow-hidden"
       } transition-all duration-200 ease-in-out`}

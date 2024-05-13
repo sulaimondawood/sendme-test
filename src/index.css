@@ -4,25 +4,19 @@
 
 @font-face {
   font-family: "AeonikRegular";
-  src: local("AeonikRegular"), url("./fonts/AeonikRegular.woff") format("woff");
+  src: local("AeonikRegular"),
+    url("./fonts/AeonikRegular.otf") format("opentype");
 }
 
 @font-face {
   font-family: "AeonikMedium";
-  src: local("AeonikMedium"), url("./fonts/AeonikMedium.woff") format("woff");
+  src: local("AeonikMedium"), url("./fonts/AeonikMedium.otf") format("opentype");
 }
 @font-face {
-  font-family: "AeonikProLight";
-  src: local("AeonikProLight"),
-    url("./fonts/AeonikProLight.woff") format("woff");
+  font-family: "AeonikLight";
+  src: local("AeonikLight"), url("./fonts/AeonikLight.otf") format("opentype");
 }
 @font-face {
-  font-family: "AeonikProBold";
-  src: local("AeonikProBold"), url("./fonts/AeonikProBold.woff") format("woff");
-}
-
-@layer base {
-  body {
-    font-family: "Inter", sans-serif;
-  }
+  font-family: "AeonikBold";
+  src: local("AeonikBold"), url("./fonts/AeonikBold.otf") format("opentype");
 }

@@ -1,8 +1,8 @@
 import { ArrowDown } from "../svgs/ArrowDown";
 import { NavLogo } from "../svgs/NavLogo";
 import { Container } from "./Container";
-import Blur from "../../assets/images/blur.png";
-import Blur3 from "../../assets/images/blur3.png";
+// import Blur from "../../assets/images/blur.png";
+// import Blur3 from "../../assets/images/blur3.png";
 import { MobileNav } from "./MobileNav";
 
 export const NavBar = () => {
@@ -31,7 +31,7 @@ export const NavBar = () => {
         </Container>
       </header>
       <MobileNav />
-      <img
+      {/* <img
         className="hidden lg:block absolute -z-10 top-0 w-full"
         src={Blur}
         alt="blur gradient"
@@ -40,7 +40,7 @@ export const NavBar = () => {
         className="lg:hidden absolute -z-10 top-0 w-full"
         src={Blur3}
         alt="blur gradient"
-      />
+      /> */}
     </>
   );
 };
