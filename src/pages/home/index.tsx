@@ -1,7 +1,8 @@
 import { Faq } from "../../components/sections/Faq";
 import { Footer } from "../../components/sections/Footer";
 import { Hero } from "../../components/sections/Hero";
-
+import Marquee from "react-fast-marquee";
+import Grid from "../../components/ui/Grid";
 const Home = () => {
   return (
     <div className="bg-[#F8F3F0]">
@@ -16,6 +17,9 @@ const Home = () => {
         btnText="Get started"
       />
 
+      <div className="mt-[115px]">
+        <Marquee autoFill={true}>{/* <Grid/> */}</Marquee>
+      </div>
       <Faq />
       <Footer />
     </div>
