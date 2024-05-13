@@ -9,16 +9,16 @@ export default {
       fontFamily: {
         aeonikRegular: ["AeonikRegular", "sans-serif"],
         aeonikMedium: ["AeonikMedium", "sans-serif"],
-        aeonikLight: ["AeonikProLight", "sans-serif"],
-        aeonikBold: ["AeonikProBold", "sans-serif"],
+        aeonikLight: ["AeonikLight", "sans-serif"],
+        aeonikBold: ["AeonikBold", "sans-serif"],
         besley: ["Besley", "sans-serif"],
       },
       colors: {
-        "prm-purple": "#5E565A",
-        "prm-red": "#FF934F",
-        "prm-yellow": "#F7FF58",
-        "prm-gray": "#A9CBB7",
-        "prm-l-brown": "#EFECCA",
+        // "prm-purple": "#5E565A",
+        // "prm-red": "#FF934F",
+        // "prm-yellow": "#F7FF58",
+        // "prm-gray": "#A9CBB7",
+        // "prm-l-brown": "#EFECCA",
         "prm-black": "#00070C",
       },
 
@@ -28,7 +28,8 @@ export default {
         servicesGradient:
           "linear-gradient(180deg, #F8F3F0 0%, #FFFAF3 48.97%, #FFFEFC 100%)",
         cardBg: "url('/man-swift.png')",
-        // cardBg: "url('./src/assets/images/man-swift.png')",
+        descriptionGradient:
+          "linear-gradient(180deg, #F8F3F0 0%, #FFFAF3 48.97%, #FFFEFC 100%)",
       },
     },
   },
