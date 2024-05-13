@@ -14,11 +14,7 @@ export default {
         besley: ["Besley", "sans-serif"],
       },
       colors: {
-        // "prm-purple": "#5E565A",
-        // "prm-red": "#FF934F",
-        // "prm-yellow": "#F7FF58",
-        // "prm-gray": "#A9CBB7",
-        // "prm-l-brown": "#EFECCA",
+        "prm-red": "#E4572E",
         "prm-black": "#00070C",
       },
 

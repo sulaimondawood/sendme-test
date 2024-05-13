@@ -14,6 +14,9 @@ import Img8 from "../../assets/images/marquee/marque8.png";
 import Img9 from "../../assets/images/marquee/marque9.png";
 import { Description } from "../../components/sections/home/description";
 import { FarmProducts } from "../../components/sections/home/farm-products";
+import { Services } from "../../components/sections/home/services";
+import { Community } from "../../components/sections/home/community";
+import { Payment } from "../../components/sections/home/payment";
 
 const Home = () => {
   return (
@@ -53,6 +56,9 @@ const Home = () => {
       </div>
       <Description />
       <FarmProducts />
+      <Services />
+      <Community />
+      <Payment />
       <Faq />
     </div>
   );
