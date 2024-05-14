@@ -1,4 +1,3 @@
-import { Faq } from "../../components/sections/Faq";
 import { Hero } from "../../components/sections/Hero";
 import Marquee from "react-fast-marquee";
 import LandingGrid from "../../components/ui/home/grid";
@@ -17,6 +16,7 @@ import { FarmProducts } from "../../components/sections/home/farm-products";
 import { Services } from "../../components/sections/home/services";
 import { Community } from "../../components/sections/home/community";
 import { Payment } from "../../components/sections/home/payment";
+import { Faq } from "../../components/sections/home/faq";
 
 const Home = () => {
   return (

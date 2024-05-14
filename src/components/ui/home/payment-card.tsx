@@ -17,14 +17,14 @@ export const PaymentCard = ({
       className="px-[10px] w-[375px] group relative h-[543px] rounded-[20px]"
     >
       <img
-        className="w-full group-even:absolute group-even:bottom-0 group-even:right-1 "
+        className="  group-even:absolute group-even:bottom-0 group-even:right-1 group-last:pt-20 "
         src={image}
         alt="image"
       />
       <div
         style={{ backgroundColor: bgInnerColor }}
-        className={`rounded-[10px] py-[18px] ${
-          bgInnerColor ? "pl-[18px] pr-[12px]" : "pl-[18px] pr-[27px]"
+        className={`rounded-[10px] py-[18px]  ${
+          bgInnerColor ? "pl-[18px] pr-[12px] h-[155px]" : "pl-[18px] pr-[27px]"
         } `}
       >
         <h1

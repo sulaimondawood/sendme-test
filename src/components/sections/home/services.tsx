@@ -11,7 +11,7 @@ export const Services = () => {
   return (
     <section className="mt-4 bg-[#F8F3F0] pt-[71px] px-[100px]">
       <Container>
-        <div className="flex flex-col">
+        <div className="flex flex-col w-fit mx-auto">
           <div className="flex gap-[114px] items-center">
             <div className="bg-[#F2EBE7] rounded-[24px] pt-[54px] pb-[51px] pr-[90px] pl-[56px] flex items-center  gap-12 flex-col">
               <img
